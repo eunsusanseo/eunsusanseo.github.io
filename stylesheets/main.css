@@ -1,0 +1,224 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Andale Mono', AndaleMono, monospace;
+}
+
+@font-face {
+font-family: 'Andale Mono';
+font-weight: bold;
+src: url("../fonts/AndaleMono.ttf") format("opentype");
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+	opacity: .65;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+.master {
+	float: center;
+	display: block;
+	margin: 0 auto;
+	width: 1050px;
+	/*border: solid red 1px;*/
+}
+
+
+.rowlists {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    width: 1050px;
+    /*height: 40px;*/
+    color: #000;
+    text-align: center;
+    display: block;
+    /*border: solid blue 1px;*/
+}
+
+.project {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	padding: 0em .5em 0em 0em;
+	font-size: 11px;
+	letter-spacing: 1.29px;
+
+}
+
+.project:hover {
+	text-decoration: underline;
+}
+
+
+span {
+	opacity: .3;
+}
+
+.name a:hover h1{
+	opacity: .75;
+
+}
+.stuff {
+	/*border: solid yellow 1px;*/
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.bio {
+	width: 210px;
+	/*border: solid black 1px;*/
+	margin: 0 auto;
+	float: right;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 30px;
+	
+}
+
+.bio h1 {
+	font-size: 18px;
+	letter-spacing: 1.71px;
+	line-height: 12px;
+}
+
+.places {
+	font-size: 10px;
+	letter-spacing: 1px;
+	/*line-height: 22px;*/
+}
+
+/*
+THIS IS THE PROJECT SECTION
+*/
+.detail {
+	float: left;
+	width: 400px;
+	position: absolute;
+	display: none;
+	top: 30px;
+	
+}
+
+.name h1 {
+	font-size: 22px;
+	letter-spacing: 2.57;
+	text-decoration: underline;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.description p {
+	font-size: 13px;
+	/*letter-spacing: 1.43px;*/
+	/*line-height: 50px;*/
+}
+
+.description p a {
+	/*text-decoration: underline;*/
+	opacity: .55;
+}
+
+
+#zach_link:hover {
+	text-decoration: underline;
+}
+
+.linkto {
+	display: block;
+	margin: 0 auto;
+	float: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.linkto p {
+	font-size: 11px;
+	margin: 0 auto;
+	padding: 0px;
+	color: #9B9B9B;
+	/*line-height: 0px;*/
+	opacity: .55;
+	/*text-transform: uppercase;*/
+}
+
+.imagecontainer {
+	width: 68%;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.projectimage {
+	max-width: 100%;
+	padding: 10px 0;
+}
+
+.projectalt {
+	visibility: hidden;
+	display: inline-block;
+	float: center;
+	text-align: center;
+	padding: 0em .5em 0em 0em;
+	font-size: 11px;
+	letter-spacing: 1.29px;
+}
+
+.footeralt {
+	 position: fixed;
+    bottom: 30px;
+    right: 100px;
+    width: 300px;
+    /*height: 40px;*/
+    color: #000;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    /*border: solid blue 1px;*/
+}
+
+.pagedescription {
+	width: 165px;
+	height: 300px;
+	position: absolute;
+	right: 130px;
+	top: 130px;
+	font-size: .85em
+}
+
+/*magic*/
+
+/*------------------------------------*\
+    Media Queries
+\*------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+	.nav-list {
+		visibility: hidden;
+	}
+
+
+}
