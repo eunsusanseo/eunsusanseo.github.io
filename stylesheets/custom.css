@@ -1,0 +1,97 @@
+#custom scripts for portfolio
+
+@media screen and (max-width: 640px) {
+.Index-page--has-image .Index-page-content {
+    padding-top: 30px;
+  padding-bottom: 30px;}
+}
+
+#collection-5980350df9a61e39f2c872aa h1 {
+   font-size: 45px;
+ }
+
+#collection-5980350df9a61e39f2c872aa h2 {
+   font-size: 35px;
+  letter-spacing: 0.4px;
+  line-height: 120%;
+ }
+
+#collection-5980350df9a61e39f2c872aa p {
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+ }
+
+@media screen and (max-width: 640px)
+{.sqs-layout .sqs-row .sqs-block:first-child {
+  padding-top: 0px !important;}
+}
+
+@media screen and (max-width: 640px) 
+  { .sqs-layout .sqs-row .sqs-block 
+    {padding-top: 0px !important;}
+}
+
+.image-caption h3 {
+   //font-style: Europa !important;
+   font-weight: 600 !important;
+   font-size: 16px !important;
+   //color: #ffffff !important;
+   text-transform: none; 
+   line-height: 120% !important;
+   letter-spacing: 0.07px !important;
+  margin-bottom: 10px !important;
+  margin-top: -8px !important;
+ }
+
+.image-caption p {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 5% !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 1px !important;
+}
+
+.Main-content {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+
+.Index-page-content {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   padding-top: 40px;
+   padding-bottom:50px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+@media screen and (max-width: 640px)
+{.sqs-block-button .sqs-block-button-element--large {
+    padding: 0px 0px;
+  font-size: 14px;}
+}
+
+.sqs-block-button-element--small .sqs-block-button-element {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+[class*=sqs-col] .sqs-block {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.boxhead a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
